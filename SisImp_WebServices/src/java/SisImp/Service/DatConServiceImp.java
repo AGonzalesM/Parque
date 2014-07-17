@@ -66,7 +66,7 @@ public class DatConServiceImp implements DatConService {
                   obj.setFch_vencimiento(tabla.getString("fch_vencimiento"));
                   obj.setFch_pago(tabla.getString("fch_pago"));
                   obj.setEst_cuota(tabla.getString("est_cuota"));
-                  obj.setCod_comprobante(tabla.getInt("cod_comprobante"));
+                  //obj.setCod_comprobante(tabla.getInt("cod_comprobante"));
                   obj.setSaldo(tabla.getInt("Mon_Saldo"));   
                   lista.add(obj);
                }               
@@ -109,7 +109,7 @@ public class DatConServiceImp implements DatConService {
         Helper cn = null;
         try {
             cn = new Helper();
-            res = cn.executeNonQuery("exec insClientes "+Ape_Paterno+","+Ape_Materno+","+Nom_Cliente+","+Tip_Documento+","+Nro_Documento+","+Nom_Direccion+","+Nom_Distrito+","+Num_Telefono+","+Cli_Correo, new Object[]{});
+            res = cn.executeNonQuery("exec insClientes '"+Ape_Paterno+"','"+Ape_Materno+"','"+Nom_Cliente+"','"+Tip_Documento+"','"+Nro_Documento+"','"+Nom_Direccion+"','"+Nom_Distrito+"','"+Num_Telefono+"','"+Cli_Correo+"' ", new Object[]{});
         } catch (Exception e) {
         }
         return res;
