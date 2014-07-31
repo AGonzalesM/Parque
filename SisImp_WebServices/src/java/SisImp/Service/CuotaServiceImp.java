@@ -19,7 +19,7 @@ public class CuotaServiceImp implements CuotaService{
            Cuota obj;
            try {       
                cn = new Helper();
-               tabla = cn.executeDataset("exec lsCuotasxContrato "+Cont, new Object[]{});
+               tabla = cn.executeDataset("exec lsCuotasxContrato (?)", new Object[]{Cont});
                while(tabla.next()){
                   obj = new Cuota();
                   obj.setCod_cuota(tabla.getInt("cod_cuota"));

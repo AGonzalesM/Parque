@@ -28,7 +28,7 @@ public class DatConServiceImp implements DatConService {
            DatCon obj;
            try {       
                cn = new Helper();
-               tabla = cn.executeDataset("exec lsContratoxDocCli "+docCli, new Object[]{});
+               tabla = cn.executeDataset("exec lsContratoxDocCli(?)", new Object[]{docCli});
                while(tabla.next()){
                   obj = new DatCon();                  
                   obj.setCod_Contrato(tabla.getInt("Cod_Contrato"));
@@ -56,7 +56,7 @@ public class DatConServiceImp implements DatConService {
            Cuota obj;
            try {       
                cn = new Helper();
-               tabla = cn.executeDataset("exec lsCuotasxContrato "+Cont, new Object[]{});
+               tabla = cn.executeDataset("exec lsCuotasxContrato(?)", new Object[]{Cont});
                while(tabla.next()){
                   obj = new Cuota();
                   obj.setCod_cuota(tabla.getInt("cod_cuota"));
@@ -83,7 +83,7 @@ public class DatConServiceImp implements DatConService {
            Cliente obj;
            try {       
                cn = new Helper();
-               tabla = cn.executeDataset("exec lsClientesxDni "+Dni, new Object[]{});
+               tabla = cn.executeDataset("exec lsClientesxDni(?)", new Object[]{Dni});
                while(tabla.next()){
                   obj = new Cliente();
                   obj.setCod_Cliente(tabla.getInt("Cod_Cliente"));
@@ -109,7 +109,10 @@ public class DatConServiceImp implements DatConService {
         Helper cn = null;
         try {
             cn = new Helper();
-            res = cn.executeNonQuery("exec insClientes '"+Ape_Paterno+"','"+Ape_Materno+"','"+Nom_Cliente+"','"+Tip_Documento+"','"+Nro_Documento+"','"+Nom_Direccion+"','"+Nom_Distrito+"','"+Num_Telefono+"','"+Cli_Correo+"' ", new Object[]{});
+            res = cn.executeNonQuery("exec insClientes(?,?,?,?,?,?,?,?,?)", new Object[]{
+            Ape_Paterno,Ape_Materno,Nom_Cliente,Tip_Documento,Nro_Documento,Nom_Direccion,Nom_Distrito,
+                Num_Telefono,Cli_Correo
+            });
         } catch (Exception e) {
         }
         return res;
@@ -121,10 +124,25 @@ public class DatConServiceImp implements DatConService {
         Helper cn = null;
         try {
             cn = new Helper();
-            res = cn.executeNonQuery("exec insContrato "+Cod_Cliente+",'"+Fch_Contrato+"','"+Fch_Vencimiento+"','"+Est_Contrato+"',"+Mon_Cuota+","+Can_Cuotas+","+Cod_Empleado+",'"+Tip_Moneda+"'", new Object[]{});
+            res = cn.executeNonQuery("exec insContrato(?,?,?,?,?,?,?,?)", new Object[]{
+            Cod_Cliente,Fch_Contrato,Fch_Vencimiento,Est_Contrato,Mon_Cuota,Can_Cuotas,Cod_Empleado,Tip_Moneda       
+            });
         } catch (Exception e) {
         }
         return res;
     }
+    
+    @Override
+    public int setCuotas(int cod_contrato,int nro_cuota){
+        int res = 0; 
+        Helper cn = null;
+        try {
+            cn = new Helper();
+            res = cn.executeNonQuery("exec upd_cuotas(?,?)", new Object[]{
+            cod_contrato,nro_cuota});
+        } catch (Exception e) {
+        }
+        return res;
+    }  
     
 }

@@ -27,4 +27,5 @@ public interface DatConService {
     
     int setContratos(int Cod_Cliente,String Fch_Contrato,String Fch_Vencimiento,String Est_Contrato,double Mon_Cuota,int Can_Cuotas,int Cod_Empleado,String Tip_Moneda);
     
+    int setCuotas(int cod_contrato,int nro_cuota);
 }

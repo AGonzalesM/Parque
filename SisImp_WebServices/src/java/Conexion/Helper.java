@@ -26,25 +26,24 @@ public class Helper {
     private static String bd = "BDPARQUE;TDS=4.2;";
     private static String url = _host + Server + bd;
     CallableStatement cmd;
+    Connection conex = null;;
 
-    public Connection Conexion() {
-        Connection cn = null;
+    public Helper() {
         try {
             Class.forName(_Class);
-            cn = DriverManager.getConnection(url, User, pass);
+            conex = DriverManager.getConnection(url, User, pass);
             System.out.println("Conecto");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "Error de la conexión");
         }
-        return cn;
     }
 
     public ResultSet executeDataset(String proc, Object[] args) throws Exception {
         ResultSet result = null;
         try {
-            cmd = this.Conexion().prepareCall(proc);
+            cmd = this.conex.prepareCall(proc);
             for (int i = 0; i < args.length; i++) {
-                cmd.setObject(i + 1, args[i]);
+                cmd.setObject(i+1, args[i]);
             }
             result = cmd.executeQuery();
         } catch (Exception e) {
@@ -60,7 +59,7 @@ public class Helper {
     public int executeNonQuery(String proc, Object[] args) throws Exception {
         int f = 0;
         try {
-            cmd = this.Conexion().prepareCall(proc);
+            cmd = this.conex.prepareCall(proc);
             for (int i = 0; i < args.length; i++) {
                 cmd.setObject(i + 1, args[i]);
             }
