@@ -1,0 +1,73 @@
+C:\Users\Daniel\Desktop\UPC\SD\SisImpNet\WASisImp\bin\WASisImp.dll
+C:\Users\Daniel\Desktop\UPC\SD\SisImpNet\WASisImp\bin\WASisImp.pdb
+C:\Users\Daniel\Desktop\UPC\SD\SisImpNet\WASisImp\obj\Debug\WASisImp.dll
+C:\Users\Daniel\Desktop\UPC\SD\SisImpNet\WASisImp\obj\Debug\WASisImp.pdb
+C:\Users\Alumnos\Desktop\sds\SisImpNet\WASisImp\bin\WASisImp.dll
+C:\Users\Alumnos\Desktop\sds\SisImpNet\WASisImp\bin\WASisImp.pdb
+C:\Users\Alumnos\Desktop\sds\SisImpNet\WASisImp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alumnos\Desktop\sds\SisImpNet\WASisImp\obj\Debug\WASisImp.dll
+C:\Users\Alumnos\Desktop\sds\SisImpNet\WASisImp\obj\Debug\WASisImp.pdb
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\SisImpNet\WASisImp\bin\WASisImp.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\SisImpNet\WASisImp\bin\WASisImp.pdb
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\SisImpNet\WASisImp\obj\Debug\WASisImp.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\SisImpNet\WASisImp\obj\Debug\WASisImp.pdb
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\WASisImp.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\WASisImp.pdb
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\obj\Debug\WASisImp.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\obj\Debug\WASisImp.pdb
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\AjaxControlToolkit.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\Microsoft.WindowsAzure.Storage.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\HtmlAgilityPack.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\AjaxMin.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\Microsoft.Data.OData.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\Microsoft.Data.Edm.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\System.Spatial.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\AjaxControlToolkit.pdb
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\Microsoft.WindowsAzure.Storage.xml
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\Microsoft.Data.OData.xml
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\Microsoft.Data.Edm.xml
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\System.Spatial.xml
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ar\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\cs\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\de\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\es\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\fr\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\he\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\hi\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\it\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ja\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ko\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\nl\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\pl\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\pt\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ru\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\de\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\es\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\it\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\de\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\es\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\fr\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\it\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ja\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ko\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\ru\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-Hans\System.Spatial.resources.dll
+D:\Rafael\UPC\Sistemas Distribuidos\Trabajo\SisImpNet\WASisImp\bin\zh-Hant\System.Spatial.resources.dll

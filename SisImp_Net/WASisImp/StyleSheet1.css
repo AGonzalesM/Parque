@@ -1,0 +1,81 @@
+﻿body {
+}
+.MiEstilo
+{
+    font-family: Calibri;
+    background-color: #A6D2FF;
+    border: 2px solid #0066FF;
+    color: #0000FF;
+    font-weight: bold;
+    width: 100%;
+    height: 314px;
+}
+
+.BordeDerecho
+{
+	background-image: url(Imagenes/LateralDer.png);
+	background-repeat: repeat-y;
+}
+
+.BordeIzquierdo
+{
+	background-image: url(Imagenes/LateralIzq.png);
+	background-repeat: repeat-y;
+}
+
+.TituloDegradadoPortal
+{
+	background-image: url(Imagenes/FondoDegradadoPortal.png);
+}
+
+.Footer4
+{
+	color: #87551E;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: bolder;
+}
+
+.Footer5
+{
+	color: #87551E;
+	font-family: Tahoma;
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.Footer6
+{
+	color: #87551E;
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bolder;
+}
+
+.FooterNaranja
+{
+	background-image: url(Imagenes/FooterNaranja.png);
+	background-repeat: repeat-x;
+	height: 71px;
+}
+
+.CopyRight3
+{
+	color: #D39D61;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bolder;
+}
+
+.CopyRight4
+{
+	color: #D39D61;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.DetalleCampos
+{
+    width:100%;
+}

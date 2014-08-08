@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://Service.SisImp/" targetNamespace="http://Service.SisImp/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="getClientesXDni" type="tns:getClientesXDni" />
+  <xs:element name="getClientesXDniResponse" type="tns:getClientesXDniResponse" />
+  <xs:element name="getCuotasXContrato" type="tns:getCuotasXContrato" />
+  <xs:element name="getCuotasXContratoResponse" type="tns:getCuotasXContratoResponse" />
+  <xs:element name="getDatosContrato" type="tns:getDatosContrato" />
+  <xs:element name="getDatosContratoResponse" type="tns:getDatosContratoResponse" />
+  <xs:element name="setClientes" type="tns:setClientes" />
+  <xs:element name="setClientesResponse" type="tns:setClientesResponse" />
+  <xs:element name="setContratos" type="tns:setContratos" />
+  <xs:element name="setContratosResponse" type="tns:setContratosResponse" />
+  <xs:element name="setCuotas" type="tns:setCuotas" />
+  <xs:element name="setCuotasResponse" type="tns:setCuotasResponse" />
+  <xs:complexType name="getClientesXDni">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getClientesXDniResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:cliente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cliente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ape_Materno" type="xs:string" />
+      <xs:element minOccurs="0" name="ape_Paterno" type="xs:string" />
+      <xs:element minOccurs="0" name="cli_Correo" type="xs:string" />
+      <xs:element name="cod_Cliente" type="xs:int" />
+      <xs:element minOccurs="0" name="nom_Cliente" type="xs:string" />
+      <xs:element minOccurs="0" name="nom_Direccion" type="xs:string" />
+      <xs:element minOccurs="0" name="nom_Distrito" type="xs:string" />
+      <xs:element minOccurs="0" name="nro_Documento" type="xs:string" />
+      <xs:element minOccurs="0" name="num_Telefono" type="xs:string" />
+      <xs:element minOccurs="0" name="tip_Documento" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setClientes">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+      <xs:element minOccurs="0" name="arg1" type="xs:string" />
+      <xs:element minOccurs="0" name="arg2" type="xs:string" />
+      <xs:element minOccurs="0" name="arg3" type="xs:string" />
+      <xs:element minOccurs="0" name="arg4" type="xs:string" />
+      <xs:element minOccurs="0" name="arg5" type="xs:string" />
+      <xs:element minOccurs="0" name="arg6" type="xs:string" />
+      <xs:element minOccurs="0" name="arg7" type="xs:string" />
+      <xs:element minOccurs="0" name="arg8" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setClientesResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setContratos">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+      <xs:element minOccurs="0" name="arg1" type="xs:string" />
+      <xs:element minOccurs="0" name="arg2" type="xs:string" />
+      <xs:element minOccurs="0" name="arg3" type="xs:string" />
+      <xs:element name="arg4" type="xs:double" />
+      <xs:element name="arg5" type="xs:int" />
+      <xs:element name="arg6" type="xs:int" />
+      <xs:element minOccurs="0" name="arg7" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setContratosResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setCuotas">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+      <xs:element name="arg1" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="setCuotasResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCuotasXContrato">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getCuotasXContratoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:cuota" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cuota">
+    <xs:sequence>
+      <xs:element name="cod_comprobante" type="xs:int" />
+      <xs:element name="cod_contrato" type="xs:int" />
+      <xs:element name="cod_cuota" type="xs:int" />
+      <xs:element minOccurs="0" name="est_cuota" type="xs:string" />
+      <xs:element minOccurs="0" name="fch_cuota" type="xs:string" />
+      <xs:element minOccurs="0" name="fch_pago" type="xs:string" />
+      <xs:element minOccurs="0" name="fch_vencimiento" type="xs:string" />
+      <xs:element name="nro_cuota" type="xs:int" />
+      <xs:element name="saldo" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDatosContrato">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDatosContratoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:datCon" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="datCon">
+    <xs:sequence>
+      <xs:element name="can_Cuotas" type="xs:int" />
+      <xs:element name="cod_Cliente" type="xs:int" />
+      <xs:element name="cod_Contrato" type="xs:int" />
+      <xs:element name="cod_Empleado" type="xs:int" />
+      <xs:element minOccurs="0" name="est_Contrato" type="xs:string" />
+      <xs:element minOccurs="0" name="fch_Contrato" type="xs:string" />
+      <xs:element minOccurs="0" name="fch_Vencimiento" type="xs:string" />
+      <xs:element name="mon_Cuota" type="xs:double" />
+      <xs:element minOccurs="0" name="tip_Moneda" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

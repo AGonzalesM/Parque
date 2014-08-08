@@ -1,0 +1,5 @@
+E:\max\UPC\Nivel6\SistemasDistribuidos\Proyecto\SisImpNet\WASisImp\bin\WASisImp.dll
+E:\max\UPC\Nivel6\SistemasDistribuidos\Proyecto\SisImpNet\WASisImp\bin\WASisImp.pdb
+E:\max\UPC\Nivel6\SistemasDistribuidos\Proyecto\SisImpNet\WASisImp\obj\Release\ResolveAssemblyReference.cache
+E:\max\UPC\Nivel6\SistemasDistribuidos\Proyecto\SisImpNet\WASisImp\obj\Release\WASisImp.dll
+E:\max\UPC\Nivel6\SistemasDistribuidos\Proyecto\SisImpNet\WASisImp\obj\Release\WASisImp.pdb

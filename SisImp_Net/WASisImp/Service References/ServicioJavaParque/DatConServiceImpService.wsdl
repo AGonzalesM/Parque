@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://Service.SisImp/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="DatConServiceImpService" targetNamespace="http://Service.SisImp/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/SisImp_WebServices/DatConServiceImpService?xsd=1" namespace="http://Service.SisImp/" />
+    </xsd:schema>
+  </types>
+  <message name="setClientes">
+    <part name="parameters" element="tns:setClientes" />
+  </message>
+  <message name="setClientesResponse">
+    <part name="parameters" element="tns:setClientesResponse" />
+  </message>
+  <message name="setContratos">
+    <part name="parameters" element="tns:setContratos" />
+  </message>
+  <message name="setContratosResponse">
+    <part name="parameters" element="tns:setContratosResponse" />
+  </message>
+  <message name="setCuotas">
+    <part name="parameters" element="tns:setCuotas" />
+  </message>
+  <message name="setCuotasResponse">
+    <part name="parameters" element="tns:setCuotasResponse" />
+  </message>
+  <message name="getDatosContrato">
+    <part name="parameters" element="tns:getDatosContrato" />
+  </message>
+  <message name="getDatosContratoResponse">
+    <part name="parameters" element="tns:getDatosContratoResponse" />
+  </message>
+  <message name="getClientesXDni">
+    <part name="parameters" element="tns:getClientesXDni" />
+  </message>
+  <message name="getClientesXDniResponse">
+    <part name="parameters" element="tns:getClientesXDniResponse" />
+  </message>
+  <message name="getCuotasXContrato">
+    <part name="parameters" element="tns:getCuotasXContrato" />
+  </message>
+  <message name="getCuotasXContratoResponse">
+    <part name="parameters" element="tns:getCuotasXContratoResponse" />
+  </message>
+  <portType name="DatConService">
+    <operation name="setClientes">
+      <input wsam:Action="http://Service.SisImp/DatConService/setClientesRequest" message="tns:setClientes" />
+      <output wsam:Action="http://Service.SisImp/DatConService/setClientesResponse" message="tns:setClientesResponse" />
+    </operation>
+    <operation name="setContratos">
+      <input wsam:Action="http://Service.SisImp/DatConService/setContratosRequest" message="tns:setContratos" />
+      <output wsam:Action="http://Service.SisImp/DatConService/setContratosResponse" message="tns:setContratosResponse" />
+    </operation>
+    <operation name="setCuotas">
+      <input wsam:Action="http://Service.SisImp/DatConService/setCuotasRequest" message="tns:setCuotas" />
+      <output wsam:Action="http://Service.SisImp/DatConService/setCuotasResponse" message="tns:setCuotasResponse" />
+    </operation>
+    <operation name="getDatosContrato">
+      <input wsam:Action="http://Service.SisImp/DatConService/getDatosContratoRequest" message="tns:getDatosContrato" />
+      <output wsam:Action="http://Service.SisImp/DatConService/getDatosContratoResponse" message="tns:getDatosContratoResponse" />
+    </operation>
+    <operation name="getClientesXDni">
+      <input wsam:Action="http://Service.SisImp/DatConService/getClientesXDniRequest" message="tns:getClientesXDni" />
+      <output wsam:Action="http://Service.SisImp/DatConService/getClientesXDniResponse" message="tns:getClientesXDniResponse" />
+    </operation>
+    <operation name="getCuotasXContrato">
+      <input wsam:Action="http://Service.SisImp/DatConService/getCuotasXContratoRequest" message="tns:getCuotasXContrato" />
+      <output wsam:Action="http://Service.SisImp/DatConService/getCuotasXContratoResponse" message="tns:getCuotasXContratoResponse" />
+    </operation>
+  </portType>
+  <binding name="DatConServiceImpPortBinding" type="tns:DatConService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="setClientes">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="setContratos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="setCuotas">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getDatosContrato">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getClientesXDni">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getCuotasXContrato">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="DatConServiceImpService">
+    <port name="DatConServiceImpPort" binding="tns:DatConServiceImpPortBinding">
+      <soap:address location="http://localhost:8080/SisImp_WebServices/DatConServiceImpService" />
+    </port>
+  </service>
+</definitions>
